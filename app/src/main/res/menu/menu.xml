@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/orderFragemnt"
+        android:icon="@drawable/orders"
+        android:title="Orders" />
+
+    <item
+        android:id="@+id/reportFragemnt"
+        android:icon="@drawable/reports"
+        android:title="Reports" />
+
+    <item
+        android:id="@+id/menuFragemnt"
+        android:icon="@drawable/menu"
+        android:title="Menu" />
+
+
+    <item
+        android:id="@+id/accountFragemnt"
+        android:icon="@drawable/user"
+        android:title="Account" />
+
+</menu>

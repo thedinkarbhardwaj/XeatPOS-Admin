@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/textMenuAddOnName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/textMenuAddOnsPrice"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Pizza"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView android:id="@+id/textMenuAddOnsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="end"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+    </RelativeLayout>
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Ad On"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textMenuAddOnsPrice"
+        android:textColor="@color/hint_color"
+        android:textSize="@dimen/_12sdp" />
+
+    <RelativeLayout
+        android:id="@+id/ll_nameInside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/textMenuAddOnNameInside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/textMenuAddOnsPriceInside"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Pizza"
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView android:id="@+id/textMenuAddOnsPriceInside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="end"
+            android:text="$ 50"
+            android:layout_alignParentRight="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12sdp" />
+    </RelativeLayout>
+-->
+</LinearLayout>

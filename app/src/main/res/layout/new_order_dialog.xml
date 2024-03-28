@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_3sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/layoutMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textMenuNameDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="New Order Received"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/_18sdp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnCancelDialogNewOrder"
+                        android:layout_width="80dp"
+                        android:layout_height="35sp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/tab_bg"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="Okay"
+                        android:textAllCaps="false"
+                        android:textColor="@color/purple_700"
+                        android:textSize="16dp" />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnGoToNewOrder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35sp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/gradient_btn"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="Go To New Order"
+                        android:textAllCaps="false"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

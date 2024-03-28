@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/orderFragemnt">
+
+    <fragment
+        android:id="@+id/orderFragemnt"
+        android:name="com.xeatpos.fragment.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+
+
+    <fragment
+        android:id="@+id/reportFragemnt"
+        android:name="com.xeatpos.fragment.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/menuFragemnt"
+        android:name="com.xeatpos.fragment.HomeMenusFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/accountFragemnt"
+        android:name="com.xeatpos.fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>

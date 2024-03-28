@@ -1,0 +1,219 @@
+{
+  "project_info": {
+    "project_number": "897579559280",
+    "firebase_url": "https://xeat-4391e-default-rtdb.firebaseio.com",
+    "project_id": "xeat-4391e",
+    "storage_bucket": "xeat-4391e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897579559280:android:79bfd8b98b0eb8bc02c7b5",
+        "android_client_info": {
+          "package_name": "com.food.xeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897579559280-en3c74bep1pifabe0g272pdntjdfggsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.xeat",
+            "certificate_hash": "51c5174cba4ccf3fb02caca4d4a3e44bf8fb787f"
+          }
+        },
+        {
+          "client_id": "897579559280-qsghv8mvfmv5s7tfjb0u6rfdfco12btp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.xeat",
+            "certificate_hash": "e15643384b2c34408ce65a0c0d9361a5dd79f39c"
+          }
+        },
+        {
+          "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXpcgTvSKEbyYQUHcRYDxXcbmC-pzQEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897579559280-9226o14a16tmul3oh921nssdmc5u8jll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xride"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897579559280:android:b3fb4521dafb7e5402c7b5",
+        "android_client_info": {
+          "package_name": "com.food.xeatdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897579559280-1jqd0e5e0v7kj24sf2q2n2cgjiglcqp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.xeatdelivery",
+            "certificate_hash": "c960a7e3a812aa81df46ae2492b6ea9943d3e478"
+          }
+        },
+        {
+          "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXpcgTvSKEbyYQUHcRYDxXcbmC-pzQEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897579559280-9226o14a16tmul3oh921nssdmc5u8jll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xride"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897579559280:android:7603d52cae92bd8402c7b5",
+        "android_client_info": {
+          "package_name": "com.food.xeatdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897579559280-1apc0ifgbqikt5dpttn61i6940a7m99c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.xeatdriver",
+            "certificate_hash": "7b3f62f5dcc19fc5970b7888fc0b9370a9e081ad"
+          }
+        },
+        {
+          "client_id": "897579559280-3hpgds03a35se569m4aslu1amr7qjnqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.xeatdriver",
+            "certificate_hash": "e15643384b2c34408ce65a0c0d9361a5dd79f39c"
+          }
+        },
+        {
+          "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXpcgTvSKEbyYQUHcRYDxXcbmC-pzQEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897579559280-9226o14a16tmul3oh921nssdmc5u8jll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xride"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897579559280:android:6ed46b074bea47a702c7b5",
+        "android_client_info": {
+          "package_name": "com.xeatpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897579559280-1rc5nrrti9i64vp5hcgmpo2497nev43u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xeatpos",
+            "certificate_hash": "11030c5b11932379244657df8a766676c698d529"
+          }
+        },
+        {
+          "client_id": "897579559280-4i94pmnhqtefkrfc2mo6pq36a7pea2dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xeatpos",
+            "certificate_hash": "701431939f4b8a46db5b671c0b9006dd3fc7bf75"
+          }
+        },
+        {
+          "client_id": "897579559280-n61nk2c18q90jkjr91p7osus13qq3grt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xeatpos",
+            "certificate_hash": "c3c35d6a1376b2cbbbae4389e55b18859b434347"
+          }
+        },
+        {
+          "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXpcgTvSKEbyYQUHcRYDxXcbmC-pzQEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897579559280-lh5geq2q2c63q66o8uql7mvmpc26q90u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897579559280-9226o14a16tmul3oh921nssdmc5u8jll.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xride"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

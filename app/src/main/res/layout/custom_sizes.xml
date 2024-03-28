@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/layoutRootSizes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tab_bg"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView android:id="@+id/textSizeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:textSize="18sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/black"/>
+
+    <TextView android:id="@+id/textSizePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$300"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+

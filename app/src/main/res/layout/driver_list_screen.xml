@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".order.NewOrderFragment">
+
+        <include android:id="@+id/layoutTopDrivers"
+            layout="@layout/back_arrow_toolbar"/>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshDrivers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTopDrivers">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/drivers_recylerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/textNoDrivers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/no_driver_found"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_16sdp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+</layout>

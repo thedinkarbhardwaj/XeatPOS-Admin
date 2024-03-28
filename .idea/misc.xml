@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/activity_info.xml" value="0.3131720430107527" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/activity_posprint.xml" value="0.32123655913978494" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/custom_addons.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/custom_driver_item.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/driver_list_screen.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_monthly_report.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_new_order.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_preparing_order.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_select_range.xml" value="0.2" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/list_prepair_order.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/list_ready_order.xml" value="0.16325136612021857" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/logout_dialog.xml" value="0.19572649572649573" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/new_order_dialog.xml" value="0.19572649572649573" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/order_items_list.xml" value="0.4" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/preparing_orderdetails_list.xml" value="0.16" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/layout/print_report.xml" value="0.28830645161290325" />
+        <entry key="..\:/Vipan/My projects/XPOS-Latest/XeatPOS/XeatPOS/app/src/main/res/menu/menu.xml" value="0.16484375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/cus_border_grey.xml" value="0.208" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/custom_varients.xml" value="0.35390625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/edit_bg.xml" value="0.208" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/gradient_btn.xml" value="0.3732824427480916" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/lost_focus_border_style.xml" value="0.3732824427480916" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/tab_bg.xml" value="0.40546875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/drawable/tab_filled.xml" value="0.40546875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/activity_home.xml" value="0.20026881720430106" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/activity_info.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/activity_posprint.xml" value="0.34610215053763443" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/back_arrow_toolbar.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/category_list_view.xml" value="0.25739247311827956" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/confirm_switch_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/conifrm_preparing.xml" value="0.3296875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/cus_tab_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_ad_on.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_addons.xml" value="0.315625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_adoninside.xml" value="0.315625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_driver_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_marker_view.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_sizes.xml" value="0.20854700854700856" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/custom_varients.xml" value="0.30981182795698925" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/dialog_progressbar.xml" value="0.3296875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/driver_list_screen.xml" value="0.20295698924731181" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/edit_grocery_price_dialog.xml" value="0.37701612903225806" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_account.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_category.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_daily_report.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_food_item_detail.xml" value="0.34408602150537637" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_home.xml" value="0.33671875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_menu.xml" value="0.2614247311827957" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_monthly_report.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_new_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_new_order_detail.xml" value="0.34610215053763443" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_picked_up_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_posts.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_preparing_order.xml" value="0.2842741935483871" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_preparing_order_detail.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_ready_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_report.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_select_range.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_wallet.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/fragment_weekly_report.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/list_new_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/list_picked_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/list_prepair_order.xml" value="0.4" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/list_ready_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/logout_dialog.xml" value="0.3296875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/menu_list_view.xml" value="0.33671875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/new_order_dialog.xml" value="0.353494623655914" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/order_history_details.xml" value="0.34610215053763443" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/order_items_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/orders_history.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/outofstock_screen.xml" value="0.34140625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/preparing_orderdetails_list.xml" value="0.34610215053763443" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/print_adon_item.xml" value="0.34408602150537637" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/print_order_item_list.xml" value="0.34408602150537637" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/print_report.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/print_screenv2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/progress_view.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/range_report_view.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/splash_screen.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/test.xml" value="0.3333333333333333" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/layout/wallet_transaction_view.xml" value="0.34610215053763443" />
+        <entry key="..\:/Vipan/My projects/XeatPOS-LatestMSTM/XeatPOS (1)/XeatPOS/app/src/main/res/menu/menu.xml" value="0.38125" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable-v24/fade_red.xml" value="0.191015625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/bg_progressbar.xml" value="0.151953125" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/bottom_nav_curv.xml" value="0.173046875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/gradient_btn.xml" value="0.202734375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/left_selected.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/right_selected.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/selected_tab_bg.xml" value="0.202734375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/tab_bg.xml" value="0.202734375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/unselected_left.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/drawable/unselected_right.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/activity_demo.xml" value="0.168359375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/activity_home.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/activity_login.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/activity_nactivity.xml" value="0.1758879781420765" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/activity_posprint.xml" value="0.361328125" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/back_arrow_toolbar.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/category_list_view.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/confirm_switch_dialog.xml" value="0.1640625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/custom_ad_on.xml" value="0.17315573770491804" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/custom_addons.xml" value="0.178515625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/custom_driver_item.xml" value="0.2" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/dialog_progressbar.xml" value="0.13046448087431695" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/driver_list_screen.xml" value="0.16939890710382513" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_account.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_category.xml" value="0.1734375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_daily_report.xml" value="0.162109375" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_food_item_detail.xml" value="0.2577565632458234" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_home.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_menu.xml" value="0.17890625" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_monthly_report.xml" value="0.14959016393442623" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_new_order.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_new_order_detail.xml" value="0.176" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_order.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_preparing_order.xml" value="0.16939890710382513" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_preparing_order_detail.xml" value="0.1508401719421649" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_report.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_select_range.xml" value="0.14959016393442623" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_wallet.xml" value="0.1687158469945355" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/fragment_weekly_report.xml" value="0.14959016393442623" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/list_new_order.xml" value="0.2" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/list_picked_order.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/list_prepair_order.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/list_ready_order.xml" value="0.13524590163934427" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/logout_dialog.xml" value="0.1758879781420765" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/menu_list_view.xml" value="0.2" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/order_history_details.xml" value="0.14959016393442623" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/order_items_list.xml" value="0.16171875" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/orders_history.xml" value="0.14959016393442623" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/preparing_orderdetails_list.xml" value="0.16939890710382513" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/print_adon_item.xml" value="0.17315573770491804" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/print_order_item_list.xml" value="0.17315573770491804" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/print_report.xml" value="0.264" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/print_screenv2.xml" value="0.16564207650273224" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/range_report_view.xml" value="0.14959016393442623" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/splash_screen.xml" value="0.17896174863387979" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/test.xml" value="0.152" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/layout/wallet_transaction_view.xml" value="0.2" />
+        <entry key="..\:/Vipan/My projects/XeatPOS/XeatPOS/app/src/main/res/menu/menu.xml" value="0.1609375" />
+        <entry key="app/src/main/res/drawable-v21/gradient_btn.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable-v24/fade_red.xml" value="0.147265625" />
+        <entry key="app/src/main/res/drawable/cus_border_grey.xml" value="0.28984375" />
+        <entry key="app/src/main/res/drawable/cus_cursor.xml" value="0.28984375" />
+        <entry key="app/src/main/res/drawable/demo.xml" value="0.147265625" />
+        <entry key="app/src/main/res/drawable/focus_border_style.xml" value="0.147265625" />
+        <entry key="app/src/main/res/drawable/gradient_btn.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/lost_focus_border_style.xml" value="0.147265625" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.28984375" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.147265625" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/activity_info.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16614583333333333" />
+        <entry key="app/src/main/res/layout/activity_posprint.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/back_arrow_toolbar.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/category_list_view.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/confirm_switch_dialog.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/cus_tab_item.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/custom_ad_on.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/custom_marker_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_daily_report.xml" value="0.11612021857923498" />
+        <entry key="app/src/main/res/layout/fragment_food_item_detail.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/fragment_monthly_report.xml" value="0.11612021857923498" />
+        <entry key="app/src/main/res/layout/fragment_new_order.xml" value="0.11612021857923498" />
+        <entry key="app/src/main/res/layout/fragment_order.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_posts.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_report.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_select_range.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_tab1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tab2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_wallet.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/fragment_weekly_report.xml" value="0.11612021857923498" />
+        <entry key="app/src/main/res/layout/list_new_order.xml" value="0.11612021857923498" />
+        <entry key="app/src/main/res/layout/menu_list_view.xml" value="0.22580645161290322" />
+        <entry key="app/src/main/res/layout/print_report.xml" value="0.11133879781420765" />
+        <entry key="app/src/main/res/layout/progress_view.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.13515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

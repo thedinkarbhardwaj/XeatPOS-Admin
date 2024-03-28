@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.OrderFragment">
+
+
+
+
+        <FrameLayout android:id="@+id/layoutFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingTop="@dimen/_18sdp"
+            android:paddingBottom="@dimen/_18sdp"
+            android:clipToPadding="false">
+
+            <View
+                android:id="@+id/indicator"
+                android:layout_width="0dp"
+                android:layout_height="40dp"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:tabGravity="fill"
+                style="@style/MyTabLayout"
+                app:tabMode="scrollable"
+                app:tabPaddingStart="10dp"
+                app:tabPaddingEnd="10dp"
+                app:tabTextColor="@color/purple_700"
+                app:tabSelectedTextColor="@color/white"
+                app:tabIndicatorColor="@null"
+                app:tabRippleColor="@null"
+                app:tabIndicatorHeight="0dp"
+
+                />
+
+        </FrameLayout>
+
+        <View android:id="@+id/viewOrders"
+            android:layout_width="match_parent"
+            android:layout_below="@id/layoutFrame"
+            android:background="#BFB9B9"
+            android:layout_height="1dp"/>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/viewOrders"
+            android:layout_centerInParent="true"
+            tools:layout_editor_absoluteX="8dp" />
+
+    </RelativeLayout>
+</layout>

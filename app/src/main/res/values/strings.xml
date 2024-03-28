@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">XeatPOS</string>
+    <string name="login">Login</string>
+    <string name="xeat">xEat</string>
+    <string name="please_login_to_your_account">Please login to your account.</string>
+    <string name="phone_no">Phone No</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="newe">New</string>
+    <string name="preparing">Preparing</string>
+    <string name="ready">Ready</string>
+    <string name="picked">Picked</string>
+    <string name="wallet_transaction">Wallet Transaction</string>
+    <string name="wallet">Wallet</string>
+    <string name="order_history">Order History</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="select_range">Select Range</string>
+    <string name="username">Username</string>
+    <string name="enter_username">Please enter username.</string>
+    <string name="enter_password">Please enter password.</string>
+
+    <string name="lorem_ipsum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</string>
+    <string name="no_menu_found">No Menu Found</string>
+    <string name="total_items">Total Items: </string>
+    <string name="menu">Menu</string>
+    <string name="category">Category</string>
+    <string name="token">Token</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="are_you_sure_want_to_logout">Are you sure want to logout?</string>
+    <string name="your_total_wallet_balance_is">Your total wallet balance is</string>
+    <string name="transactions">Transactions</string>
+    <string name="no_transaction_found">No Transaction Found</string>
+    <string name="wallet_transactions">Wallet Transactions</string>
+    <string name="order_id">Order Id:</string>
+    <string name="invoice_id">Invoice Id:</string>
+    <string name="no_new_order">No New Order</string>
+    <string name="no_sch_order">No Schedule Order</string>
+    <string name="loading_orders">Loading Orders...</string>
+    <string name="loading_drivers">Loading Drivers...</string>
+    <string name="assigning_driver">Assigning Driver...</string>
+    <string name="order_by">Order By :</string>
+    <string name="order_at">Order At :</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="order_type">Order Type</string>
+    <string name="total">Total</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="pickup">Pickup</string>
+    <string name="items">Items</string>
+    <string name="instruction">Instruction</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="add_ons">Add Ons:</string>
+    <string name="no_order_in_preparing">No Order In Preparing</string>
+    <string name="no_driver_found">No Driver Found</string>
+    <string name="drivers">Drivers</string>
+    <string name="vehicle_name">Vehicle Name:</string>
+    <string name="call">Call</string>
+    <string name="picked_up">Picked-Up</string>
+    <string name="no_order_ready_yet">No Order Ready Yet</string>
+    <string name="no_order_picked_yet">No Order Picked Yet</string>
+    <string name="no_order_found">No Order Found</string>
+    <string name="orders_history">Order History</string>
+    <string name="discount">Discount</string>
+    <string name="submit">Submit</string>
+    <string name="collect">Collect</string>
+    <string name="download_report">Download report</string>
+    <string name="update">Update</string>
+    <string name="sch_order">Schedule Orders</string>
+    <string name="sch_date">Schedule Date Time:</string>
+    <string name="proceed">Proceed</string>
+    <string name="small_charges">Small Order Fee</string>
+
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+</resources>

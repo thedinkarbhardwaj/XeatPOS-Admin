@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_quentityPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/txt_amountPrint"
+            android:layout_weight="1"
+            android:fontFamily="@font/test"
+            android:text="1 * Pizza"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_amountPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20sp"
+            android:fontFamily="@font/test"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/txt_AddOnsPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_ons"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/test"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <LinearLayout android:id="@+id/layoutAddOnDynamicPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
