@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--  <data>
+
+      </data>
+  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView android:id="@+id/imageBitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/llReports"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@color/white"
+            tools:context=".activities.POblackrintActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="90sp"
+                    android:background="@drawable/xeat_x_image"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10sp"
+                    android:backgroundTint="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="180sp"
+                    android:layout_height="55sp"
+                    android:background="@drawable/xeat_logo_new"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-10sp"
+                    android:backgroundTint="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_resturant_name_report"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/test"
+                    android:text=""
+                    android:textStyle="normal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/txt_TotalOrders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:text="Total Orders: "
+
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/txt_PickedupOrders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="normal"
+                    android:text="Pickup Orders : "
+                    android:textColor="@color/black"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/txt_DeliveredOrders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:textStyle="normal"
+                    android:layout_marginTop="5sp"
+                    android:text="Delivered Orders: "
+                    android:textColor="@color/black"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/txt_ItemPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:textStyle="normal"
+                    android:layout_marginTop="5sp"
+                    android:text="Total Items Amount: "
+                    android:textColor="@color/black"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/txt_DeliveryFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:textStyle="normal"
+                    android:layout_marginTop="5sp"
+                    android:text="Total Delivery Fee: "
+                    android:textColor="@color/black"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/txt_AdminComm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:textStyle="normal"
+                    android:layout_marginTop="5sp"
+                    android:text="Admin Commission: "
+                    android:textColor="@color/black"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/txt_total_order_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:fontFamily="@font/test"
+                    android:textStyle="normal"
+                    android:layout_marginTop="5sp"
+                    android:text="Total sales of 28 Dec, 2021:- "
+                    android:textColor="@color/black"
+                    android:textSize="11sp"/>
+                <ImageView
+                    android:id="@+id/imgQR"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/qr_image_new"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="http://xeat.co.uk"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="normal"
+                    android:fontFamily="@font/test"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank You"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/test"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
