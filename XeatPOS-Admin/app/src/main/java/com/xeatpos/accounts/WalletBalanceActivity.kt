@@ -19,6 +19,7 @@ import retrofit2.Response
 
 class WalletBalanceActivity : BaseActivity() {
 
+
     lateinit  var binding : FragmentWalletBinding
     private val progressDialog = CustomProgressDialog()
 
