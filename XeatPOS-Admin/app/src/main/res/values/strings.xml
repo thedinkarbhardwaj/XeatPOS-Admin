@@ -43,6 +43,7 @@
     <string name="invoice_id">Invoice Id:</string>
     <string name="no_new_order">No New Order</string>
     <string name="no_sch_order">No Schedule Order</string>
+    <string name="loading">Loading...</string>
     <string name="loading_orders">Loading Orders...</string>
     <string name="loading_drivers">Loading Drivers...</string>
     <string name="assigning_driver">Assigning Driver...</string>

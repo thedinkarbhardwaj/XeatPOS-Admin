@@ -24,6 +24,7 @@ import com.xeatpos.prefs
 import android.view.LayoutInflater
 
 import android.content.SharedPreferences
+import android.util.Log
 
 import android.widget.TextView
 
@@ -47,6 +48,9 @@ open class BaseActivity : AppCompatActivity() {
         override fun onReceive(context: Context?, intent: Intent?) {
             val t = intent!!.getStringExtra("value1")
             val t1 = intent.getStringExtra("value2")
+
+            Log.d("IntentDattttaaaa",t.toString() + "      Second --  " + t1.toString())
+
             //Toast.makeText(applicationContext, t, Toast.LENGTH_SHORT).show()
             if (t.equals("New Order Received")) {
                 runOnUiThread {
@@ -55,6 +59,10 @@ open class BaseActivity : AppCompatActivity() {
 
                 }
             } else {
+
+                runOnUiThread {
+
+                }
 
             }
 
@@ -206,6 +214,7 @@ open class BaseActivity : AppCompatActivity() {
         if (!dialog.isShowing) {
             dialog.show()
         }
+
     }
 
 

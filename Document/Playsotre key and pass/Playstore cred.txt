@@ -1,0 +1,3 @@
+Key Store Password --- password
+Key alias -- key0
+key Password --- password

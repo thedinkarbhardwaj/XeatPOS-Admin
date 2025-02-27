@@ -1,5 +1,8 @@
 package com.xeatpos.order
 
+import android.app.NotificationManager
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -7,17 +10,24 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity.NOTIFICATION_SERVICE
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.xeatpos.R
+import com.xeatpos.activities.PrintOrderActivity
 import com.xeatpos.adapter.NewOrderAdapter
 import com.xeatpos.data.ResponseAcceptRejectOrder
+import com.xeatpos.data.ResponseNewOrderDetails
 import com.xeatpos.data.ResponseNewOrders
 import com.xeatpos.databinding.FragmentNewOrderBinding
 import com.xeatpos.prefs
 import com.xeatpos.retrofit.APIService
+import com.xeatpos.utils.Constants
+import com.xeatpos.utils.CustomProgressDialog
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -27,6 +37,9 @@ class NewOrderFragment : Fragment() {
 
     lateinit var binding: FragmentNewOrderBinding
     var list: MutableList<ResponseNewOrders.Data>? = ArrayList()
+
+    private val progressDialog = CustomProgressDialog()
+
 
     // private val progressDialog = CustomProgressDialog()
     lateinit var mainHandler: Handler
@@ -124,7 +137,7 @@ class NewOrderFragment : Fragment() {
     }
 
 
-    fun getAllNewOrders() {
+    fun getAllNewOrders(progress:Boolean = false) {
         Log.e("token",prefs.token)
         val apiInterface =
             APIService.create().getNewOrders("application/json", "Bearer " + prefs.token)
@@ -137,7 +150,9 @@ class NewOrderFragment : Fragment() {
 
                 if (response?.body() != null) {
 
-                    //  progressDialog.dialog.dismiss()
+                    if (progress == true) {
+                        progressDialog.dialog.dismiss()
+                    }
 
                     binding.progressNewOrder.visibility = View.GONE
 
@@ -232,14 +247,14 @@ class NewOrderFragment : Fragment() {
             var layoutManager = LinearLayoutManager(context)
             this.layoutManager = layoutManager
             if (!flag) {
-                val adapter = NewOrderAdapter(context, list!!)
+                val adapter = NewOrderAdapter(context, list!!,this@NewOrderFragment)
                 this.adapter = adapter
                 flag = true
             } else {
                 if(this.adapter != null) {
                     this.adapter!!.notifyDataSetChanged()
                 }else{
-                    val adapter = NewOrderAdapter(context, list!!)
+                    val adapter = NewOrderAdapter(context, list!!, this@NewOrderFragment)
                     this.adapter = adapter
                     flag = true
                 }
@@ -309,5 +324,270 @@ class NewOrderFragment : Fragment() {
         })
 
     }
+
+
+    fun acceptRejectOrderBtn(status: String, sch_now_type: String, orderId: Int) {
+
+        try {
+            if (Constants.player_ring.isPlaying) {
+                Constants.player_ring.stop()
+            }
+        } catch (e: java.lang.Exception) {
+        }
+
+        val notify_manager = context?.getSystemService(NOTIFICATION_SERVICE) as NotificationManager
+        notify_manager.cancelAll();
+
+        context?.let { progressDialog.show(it, getString(R.string.loading_orders)) }
+        if(sch_now_type.equals("later")) {
+            AcceptRejectOrderAdv(status,orderId)
+        }
+        else
+            AcceptRejectOrder(status,orderId)
+
+        //  val gson = Gson()
+        //  val personString = gson.toJson(responseData)
+
+    }
+
+
+    fun AcceptRejectOrder(status: String, orderId: Int) {
+        val apiInterface =
+            APIService.create().acceptrejectorder(
+                "application/json", "Bearer " + prefs.token,
+                orderId.toString(), status
+            )
+        // Toast.makeText(this@NewOrderDetailsActivity, "api/2.0/accept_reject_order_new", Toast.LENGTH_LONG).show()
+
+
+        apiInterface.enqueue(object : Callback<ResponseAcceptRejectOrder.AcceptRejectOrder> {
+            override fun onResponse(
+                call: Call<ResponseAcceptRejectOrder.AcceptRejectOrder>?,
+                response: Response<ResponseAcceptRejectOrder.AcceptRejectOrder>?
+            ) {
+
+                if (response?.body() != null) {
+
+//                    progressDialog.dialog.dismiss()
+
+                    if (response.body()!!.status == "1") {
+
+                        if (status == "accepted") {
+
+                            progressDialog.dialog.dismiss()
+                           // if(context.intent.getStringExtra(Constants.DRIVER_FROM) == "0") {
+                            if(Constants.DRIVER_FROM == "0") {
+
+                                Toast.makeText(context,
+                                    response.body()!!.message,
+                                    Toast.LENGTH_SHORT).show()
+
+//                                startActivity(
+//                                    Intent(context, PrintOrderActivity::class.java)
+//                                        .putExtra("response", responseData)
+//                                        .putExtra("order_id", orderId)
+//                                        .putExtra("driver_type", driverType)
+//                                        .putExtra("order_type", intent.getStringExtra("order_type"))
+//                                        .putExtra(Constants.ORDER_TYPE, intent.getStringExtra(Constants.ORDER_TYPE))
+//                                        .putExtra("order_type", orderType))
+//
+//                                // to update add order din
+//                                getAllNewOrders()
+
+                                getNewOrderDetail(orderId)
+
+
+                            }
+                            else{
+
+                             //   Log.i("=========driver_type", driverType);
+//                                startActivity(
+//                                    Intent(context, PrintOrderActivity::class.java)
+//                                        .putExtra("response", responseData)
+//                                        .putExtra("order_id", orderId)
+//                                        .putExtra(Constants.ORDER_TYPE, intent.getStringExtra(Constants.ORDER_TYPE))
+//                                        .putExtra("driver_type", driverType)
+//                                        .putExtra("order_type", intent.getStringExtra("order_type")))
+
+                                // to update add order din
+                              //  getAllNewOrders()
+
+                                getNewOrderDetail(orderId)
+
+                            }
+                        }
+
+                        else if (status == "rejected"){
+                           // context?.let { progressDialog.show(it, getString(R.string.loading_orders)) }
+
+                            getAllNewOrders(true)
+                        }
+
+                        else {
+                            progressDialog.dialog.dismiss()
+                        }
+
+                    } else {
+
+                        Toast.makeText(
+                            context,
+                            response.body()!!.message,
+                            Toast.LENGTH_SHORT
+                        ).show()
+
+
+                    }
+
+
+                }
+                //    recyclerAdapter.setMovieListItems(response.body()!!)
+            }
+
+            override fun onFailure(
+                call: Call<ResponseAcceptRejectOrder.AcceptRejectOrder>?,
+                t: Throwable?
+            ) {
+
+                Toast.makeText(context, "No Internet Found", Toast.LENGTH_SHORT)
+                    .show()
+
+                Log.i("Exception: ", t.toString())
+
+            }
+        })
+
+    }
+
+    fun AcceptRejectOrderAdv(status: String, orderId: Int) {
+        val apiInterface =
+            APIService.create().acceptrejectorderAdvance(
+                "application/json", "Bearer " + prefs.token,
+                orderId.toString(), status
+            )
+
+        apiInterface.enqueue(object : Callback<ResponseAcceptRejectOrder.AcceptRejectOrder> {
+            override fun onResponse(
+                call: Call<ResponseAcceptRejectOrder.AcceptRejectOrder>?,
+                response: Response<ResponseAcceptRejectOrder.AcceptRejectOrder>?
+            ) {
+
+                if (response?.body() != null) {
+
+                    progressDialog.dialog.dismiss()
+
+                    if (response.body()!!.status == "1") {
+
+                        if (status == "accepted") {
+                            Log.e("resp success","Order Accepted advance")
+                           // finish()
+
+
+                            // to update add order din
+                            getAllNewOrders()
+                        } else {
+                            // to update add din
+                            getAllNewOrders()
+
+                            // finish()
+
+                        }
+
+                    } else {
+
+                        Toast.makeText(
+                            context,
+                            response.body()!!.message,
+                            Toast.LENGTH_SHORT
+                        ).show()
+
+
+                    }
+
+
+                }
+                //    recyclerAdapter.setMovieListItems(response.body()!!)
+            }
+
+            override fun onFailure(
+                call: Call<ResponseAcceptRejectOrder.AcceptRejectOrder>?,
+                t: Throwable?
+            ) {
+
+                Toast.makeText(context, "No Internet Found", Toast.LENGTH_SHORT)
+                    .show()
+
+                Log.i("Exception: ", t.toString())
+
+            }
+        })
+
+    }
+
+
+    fun getNewOrderDetail(orderId: Int) {
+        val apiInterface =
+            APIService.create().getNewOrderDetails(
+                "application/json", "Bearer " + prefs.token,
+                orderId.toString()
+            )
+
+
+        apiInterface.enqueue(object : Callback<ResponseNewOrderDetails.NewOrderDetails> {
+            override fun onResponse(
+                call: Call<ResponseNewOrderDetails.NewOrderDetails>?,
+                response: Response<ResponseNewOrderDetails.NewOrderDetails>?
+            ) {
+
+                if (response?.body() != null) {
+
+                    progressDialog.dialog.dismiss()
+
+                    var responseData = response.body()!!.data
+
+                    if (response.body()!!.status == "1") {
+
+                        var orderId = "" + response.body()!!.data.order_id
+                        var orderType = response.body()!!.data.order_type
+                        var driverType = response.body()!!.data.driver_type
+
+
+
+
+                        context?.startActivity(
+                            Intent(context, PrintOrderActivity::class.java)
+                                .putExtra("response", responseData)
+                                .putExtra("order_id", orderId)
+//                                        .putExtra(Constants.ORDER_TYPE, orderType)
+                                .putExtra("driver_type", driverType)
+                                .putExtra("order_type", orderType)
+                        )
+
+
+
+                    } else {
+
+
+                    }
+
+
+                }
+                //    recyclerAdapter.setMovieListItems(response.body()!!)
+            }
+
+            override fun onFailure(
+                call: Call<ResponseNewOrderDetails.NewOrderDetails>?,
+                t: Throwable?
+            ) {
+
+                Toast.makeText(context, "No Internet Found", Toast.LENGTH_SHORT)
+                    .show()
+
+                Log.i("Exception: ", t.toString())
+
+            }
+        })
+
+    }
+
 
 }

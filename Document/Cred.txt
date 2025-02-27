@@ -1,1 +1,3 @@
-dsdfd
+login creds(restaurant)
+user : Manoj
+p/w:  12345678

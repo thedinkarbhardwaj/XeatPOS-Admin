@@ -58,7 +58,7 @@ class PrintReportsActivity : BaseActivity() {
 
             setDataOnView(result)
         } else {
-            progressDialog.show(this, getString(R.string.loading_orders))
+            progressDialog.show(this, getString(R.string.loading))
             GetReport(intent.getStringExtra("type")!!)
         }
 

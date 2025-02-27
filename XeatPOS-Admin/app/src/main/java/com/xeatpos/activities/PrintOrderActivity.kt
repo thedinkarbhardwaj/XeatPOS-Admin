@@ -149,7 +149,9 @@ class PrintOrderActivity : BaseActivity() {
 
             SunmiPrintHelper.getInstance().printBitmap(bitmap, 1)
             SunmiPrintHelper.getInstance().feedPaper()
-        }, 1000)
+        },
+            2000)
+            //1000)
 
         binding.llContainer.postDelayed(Runnable {
 
@@ -193,6 +195,7 @@ class PrintOrderActivity : BaseActivity() {
             }
 
         }, 2000)
+      //  }, 2000)
 
     }
 

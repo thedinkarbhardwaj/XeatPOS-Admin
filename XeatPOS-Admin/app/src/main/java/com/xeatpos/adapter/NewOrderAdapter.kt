@@ -8,11 +8,16 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.xeatpos.data.ResponseNewOrders
 import com.xeatpos.databinding.ListNewOrderBinding
+import com.xeatpos.order.NewOrderFragment
 import com.xeatpos.order.orders.DriverAssignActivity
 import com.xeatpos.order.orders.NewOrderDetailsActivity
 import com.xeatpos.utils.Constants
 
-class NewOrderAdapter(var context: Context, var list: MutableList<ResponseNewOrders.Data>) :
+class NewOrderAdapter(
+    var context: Context,
+    var list: MutableList<ResponseNewOrders.Data>,
+    var newOrderFragment: NewOrderFragment
+) :
     RecyclerView.Adapter<NewOrderAdapter.ViewHolder>() {
     class ViewHolder(val binding: ListNewOrderBinding) : RecyclerView.ViewHolder(binding.root) {
 
@@ -44,10 +49,10 @@ class NewOrderAdapter(var context: Context, var list: MutableList<ResponseNewOrd
         if(list[position].driver_from == "0"){
             if(list[position].status == "4") {
                 holder.binding.textWaitingForDriver.visibility = View.VISIBLE
-                //holder.binding.layoutAcceptReject.visibility = View.GONE
+                holder.binding.layoutAcceptReject.visibility = View.GONE
             }else{
                 holder.binding.textWaitingForDriver.visibility = View.GONE
-                //holder.binding.layoutAcceptReject.visibility = View.VISIBLE
+                holder.binding.layoutAcceptReject.visibility = View.VISIBLE
             }
         }else{
             holder.binding.textWaitingForDriver.visibility = View.GONE
@@ -104,6 +109,20 @@ class NewOrderAdapter(var context: Context, var list: MutableList<ResponseNewOrd
              )*/
 
         }
+
+
+        holder.binding.btnReject.setOnClickListener {
+            newOrderFragment.acceptRejectOrderBtn("rejected",list.get(position).schedule_type,
+                list.get(position).order_id,)
+
+        }
+
+        holder.binding.btnAccept.setOnClickListener {
+            newOrderFragment.acceptRejectOrderBtn("accepted",list.get(position).schedule_type,
+                list.get(position).order_id,)
+
+        }
+
 
     }
 
